@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документація плагіна Perevircnachity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: #00fffb;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            width: 80%;
+            max-width: 800px;
+            text-align: left;
+        }
+        h1 {
+            color: #bf2626;
+            text-align: center;
+        }
+        h2 {
+            color: #bf2626;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .instructions {
+            color: #777;
+            margin-top: 20px;
+        }
+        .code {
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            padding: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #bf2626;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Документація плагіна Perevircnachity</h1>
+
+        <div class="section">
+            <h2>Опис плагіна</h2>
+            <p>Perevircnachity - це плагін для Minecraft, що допомагає проводити перевірку на чіти на вашому сервері.</p>
+        </div>
+
+        <div class="section">
+            <h2>Команди</h2>
+            <ul>
+                <li><span class="code">/check [гравець]</span> - Почати перевірку на чіти для вказаного гравця.</li>
+                <li><span class="code">/stopcheck [гравець]</span> - Завершити перевірку на чіти для вказаного гравця.</li>
+                <li><span class="code">/contact [повідомлення]</span> - Надіслати повідомлення перевіряючому.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Права доступу</h2>
+            <ul>
+                <li><span class="code">perevircnachity.check</span> - Дозволяє використовувати команду <span class="code">/check</span>.</li>
+                <li><span class="code">perevircnachity.stopcheck</span> - Дозволяє використовувати команду <span class="code">/stopcheck</span>.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Інструкція з використання</h2>
+            <p>Щоб почати перевірку на чіти, використовуйте команду <span class="code">/check [гравець]</span>. Плагін автоматично заморозить гравця та створить панель для відліку часу перевірки.</p>
+            <p>Для завершення перевірки використовуйте команду <span class="code">/stopcheck [гравець]</span>.</p>
+            <p>Щоб надіслати повідомлення перевіряючому, використовуйте команду <span class="code">/contact [повідомлення]</span>. Це дозволить вам зв'язатися з перевіряючим під час перевірки.</p>
+        </div>
+
+        <div class="section">
+            <h2>Завантажити плагін</h2>
+            <a href="Perevircnachity.jar" class="btn" download>Завантажити плагін</a>
+            <p class="instructions">Якщо ви бачите попередження про те, що файл може бути небезпечним, натисніть "Завантажити неперевірений файл", щоб завершити завантаження.</p>
+        </div>
+    </div>
+</body>
+</html>
